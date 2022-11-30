@@ -22,7 +22,7 @@ spec:
           env:
             - name: JWT_KEY
               valueFrom:
-                secretkeyRef:
+                secretKeyRef:
                   name: jwt-secret
                   key: JWT_KEY
 ---
